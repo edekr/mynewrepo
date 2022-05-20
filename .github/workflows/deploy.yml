@@ -21,3 +21,4 @@ jobs:
           AWS_REGION: eu-central-1
         run: |
           aws s3api list-buckets
+          echo "Test"
